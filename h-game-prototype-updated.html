@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0a0a">
+<meta name="description" content="H GAME — اكتشف ألعاب متصفح ممتعة، العب فوراً، وتحدَّ مهاراتك في تجربة سوداء وذهبية فاخرة.">
+<meta property="og:title" content="H GAME — Enter the World of Play">
+<meta property="og:description" content="اكتشف ألعاب المتصفح والعب فوراً.">
+<title>H GAME | عالمك للألعاب</title>
+<style>
+:root{--bg:#0a0a0a;--surface:#121212;--card:#191919;--gold:#d4af37;--bright:#ffd700;--text:#f5f5f5;--muted:#b8b8b8;--line:#302814;--radius:18px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at top,#19150a 0,#0a0a0a 48%);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;line-height:1.6}button,input,select{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid var(--bright);outline-offset:3px}a{color:inherit;text-decoration:none}.wrap{width:min(1180px,calc(100% - 30px));margin:auto}.topbar{position:sticky;top:0;z-index:10;background:#0a0a0aee;backdrop-filter:blur(14px);border-bottom:1px solid #2d2511}.nav{display:flex;align-items:center;gap:18px;min-height:72px}.brand{display:flex;align-items:center;gap:10px;white-space:nowrap;font-weight:900;letter-spacing:1px;font-size:1.25rem}.emblem{width:42px;height:42px;display:grid;place-items:center;border:1px solid var(--gold);border-radius:13px;background:linear-gradient(145deg,#2b230d,#080808);color:var(--bright);font-size:1.3rem;box-shadow:0 0 20px #d4af3714}.brand small{display:block;font-size:.61rem;letter-spacing:2px;color:var(--muted);font-weight:500}.links{display:flex;gap:14px;align-items:center;flex:1}.links a{font-size:.9rem;color:#ddd}.links a:hover,.links a.active{color:var(--bright)}.search{position:relative;max-width:235px;flex:1}.search input{width:100%;background:#171717;border:1px solid #393020;border-radius:12px;padding:10px 38px 10px 12px;color:white}.search span{position:absolute;right:12px;top:7px;color:var(--gold)}.smallbtn,.btn{border:1px solid var(--gold);border-radius:12px;padding:10px 14px;color:var(--bright);background:#17140a;font-weight:700}.smallbtn{padding:8px 10px}.btn.primary{background:linear-gradient(135deg,#ffe68a,#b88a18);color:#171106;border:0}.btn:hover,.smallbtn:hover{filter:brightness(1.15);transform:translateY(-1px)}.mobile-toggle{display:none}.hero{margin:26px auto 30px;border:1px solid #5d491b;border-radius:26px;overflow:hidden;position:relative;background:radial-gradient(circle at 80% 20%,#6a501a44,transparent 32%),linear-gradient(120deg,#19150a,#101010 65%);padding:clamp(25px,5vw,60px);min-height:270px}.hero:after{content:"H";position:absolute;left:4%;top:-65px;font-size:clamp(180px,28vw,330px);font-weight:1000;color:#d4af3709;line-height:1;pointer-events:none}.eyebrow{color:var(--bright);font-size:.78rem;letter-spacing:2px;text-transform:uppercase}.hero h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.2;margin:12px 0;max-width:700px}.hero p{color:var(--muted);max-width:620px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.section{margin:36px auto}.section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:17px}.section h2{font-size:1.35rem;margin:0}.section-head p{margin:3px 0 0;color:var(--muted);font-size:.88rem}.goldline{height:2px;width:42px;background:var(--gold);margin-bottom:8px}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}.game-card{min-width:0;background:linear-gradient(160deg,#1b1b1b,#111);border:1px solid #2d2a21;border-radius:17px;overflow:hidden;transition:.18s}.game-card:hover{transform:translateY(-3px);border-color:#8e7026}.thumb{height:145px;display:grid;place-items:center;position:relative;background:radial-gradient(circle at 50% 30%,#5a451b,#19150c 55%,#111);font-size:3.2rem}.thumb .type{position:absolute;top:9px;right:9px;background:#0a0a0acc;color:var(--bright);border:1px solid #6b541f;border-radius:20px;padding:2px 8px;font-size:.68rem}.heart{position:absolute;left:9px;top:8px;border:1px solid #65501c;border-radius:50%;width:34px;height:34px;background:#0a0a0acc;color:#fff;font-size:1.05rem}.heart.on{color:#ffcf4b}.card-body{padding:13px}.card-body h3{font-size:1rem;margin:0 0 5px}.card-body p{font-size:.81rem;color:var(--muted);margin:0 0 12px;min-height:44px}.card-bottom{display:flex;justify-content:space-between;align-items:center;gap:8px}.tag{font-size:.72rem;color:#d7c68d}.play{border:0;border-radius:9px;background:var(--gold);color:#171106;font-weight:800;padding:7px 12px}.categories{display:flex;gap:9px;flex-wrap:wrap}.chip{border:1px solid #40351c;background:#151515;color:#ddd;border-radius:99px;padding:8px 13px}.chip.active,.chip:hover{background:#33280d;color:var(--bright);border-color:var(--gold)}.feature{display:grid;grid-template-columns:1.2fr 1fr;align-items:center;gap:25px;padding:22px;background:#131313;border:1px solid #40331a;border-radius:20px}.feature-art{min-height:210px;display:grid;place-items:center;border-radius:15px;background:radial-gradient(circle,#785a1d,#211a0b 55%,#111);font-size:6rem}.feature p{color:var(--muted)}.adslot{margin:28px auto;padding:14px;text-align:center;border:1px dashed #55451d;border-radius:12px;color:#9c906d;background:#111;font-size:.8rem}.adslot strong{color:#d2bd78;display:block}.filters{display:flex;gap:10px;flex-wrap:wrap;margin:15px 0}.filters select{background:#161616;border:1px solid #40351c;color:white;border-radius:10px;padding:9px}.empty{padding:35px;text-align:center;color:var(--muted);border:1px dashed #40351c;border-radius:15px}.player-panel{display:none;margin:25px auto;padding:18px;background:#111;border:1px solid #6b541f;border-radius:20px}.player-panel.show{display:block}.player-head{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}.player-head h2{margin:0}.game-stage{margin-top:15px;background:#050505;border:1px solid #342a12;border-radius:14px;overflow:hidden;min-height:280px;display:grid;place-items:center;padding:12px}.game-stage canvas{width:min(100%,680px);height:auto;max-height:65vh;touch-action:manipulation;border-radius:10px;background:#111}.game-instructions{color:var(--muted);font-size:.9rem}.game-controls{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.pad{display:flex;justify-content:center;gap:10px;margin:12px auto 0}.pad button{width:60px;height:48px;border-radius:12px;background:#211a0b;border:1px solid var(--gold);color:var(--bright);font-size:1.3rem;touch-action:manipulation}.footer{margin-top:50px;padding:28px 0;border-top:1px solid #2c2412;color:var(--muted)}.footlinks{display:flex;gap:15px;flex-wrap:wrap;margin:12px 0}.footlinks a{font-size:.85rem}.footlinks a:hover{color:var(--bright)}.legal{display:none;padding:24px;background:#121212;border:1px solid #3b3018;border-radius:16px;margin:20px auto}.legal.show{display:block}.contact-card{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}.contact-link{display:inline-flex;align-items:center;gap:8px;padding:10px 13px;border:1px solid #55451d;border-radius:12px;background:#17140a;color:#ffe28a;overflow-wrap:anywhere}.owner-panel{display:none;margin:24px auto;padding:18px;background:#111;border:1px solid #6b541f;border-radius:18px}.owner-panel.show{display:block}.stats-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:15px 0}.stat-box{padding:14px;background:#191919;border:1px solid #40351c;border-radius:12px}.stat-box small{display:block;color:#b8b8b8}.stat-box strong{display:block;color:#ffd700;font-size:1.4rem;margin-top:4px}.table-scroll{overflow-x:auto}.stats-table{width:100%;border-collapse:collapse;min-width:460px}.stats-table th,.stats-table td{padding:11px;border-bottom:1px solid #302814;text-align:right}.stats-table th{color:#ffd700;background:#17140a}.stats-note{padding:12px;border:1px solid #65501c;border-radius:12px;background:#1a160b;color:#e6d7a7;font-size:.9rem}@media(max-width:650px){.stats-grid{grid-template-columns:1fr}.contact-card{display:grid}}.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#2a220f;color:#ffe28a;padding:10px 16px;border:1px solid var(--gold);border-radius:12px;z-index:30;display:none;max-width:90%;text-align:center}.toast.show{display:block}.muted{color:var(--muted)}.hidden{display:none!important}
+@media(max-width:950px){.links{display:none}.mobile-toggle{display:block}.nav{gap:10px}.search{max-width:none}.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.mobile-menu{display:none;position:absolute;top:72px;left:0;right:0;padding:15px;background:#0d0d0d;border-bottom:1px solid #3a2e16}.mobile-menu.open{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.mobile-menu a{padding:10px;border-radius:9px;background:#171717}}
+@media(max-width:650px){.wrap{width:calc(100% - 22px)}.nav{min-height:64px;flex-wrap:wrap;padding:9px 0}.brand{font-size:1rem;gap:7px}.emblem{width:36px;height:36px}.search{order:5;flex-basis:100%;max-width:none}.mobile-menu{top:110px}.hero{margin-top:18px;padding:24px 19px;min-height:0}.hero h1{font-size:2rem}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.thumb{height:115px;font-size:2.5rem}.card-body{padding:10px}.card-body p{font-size:.77rem;min-height:55px}.feature{grid-template-columns:1fr}.feature-art{min-height:150px;font-size:4rem}.section{margin:27px auto}.section-head{align-items:start;flex-direction:column}.game-stage{min-height:220px;padding:5px}.player-panel{padding:11px}.smallbtn{font-size:.8rem}.adslot{margin:20px auto}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="wrap nav">
+<a class="brand" href="#home" aria-label="H GAME الصفحة الرئيسية"><span class="emblem">♛H</span><span>H GAME<small>ENTER THE WORLD OF PLAY</small></span></a>
+<nav class="links" aria-label="التنقل الرئيسي"><a href="#home" class="active">الرئيسية</a><a href="#library">كل الألعاب</a><a href="#trending">الرائجة</a><a href="#new">الجديدة</a><a href="#categories">التصنيفات</a></nav>
+<div class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="ابحث عن لعبة..." aria-label="ابحث عن لعبة"></div>
+<button class="smallbtn" id="favoritesNav" aria-label="الألعاب المفضلة">♡ <span id="favCount">0</span></button>
+<button class="smallbtn mobile-toggle" id="menuToggle" aria-expanded="false" aria-label="فتح القائمة">☰</button>
+<div class="mobile-menu" id="mobileMenu"><a href="#home">الرئيسية</a><a href="#library">كل الألعاب</a><a href="#trending">الرائجة</a><a href="#new">الجديدة</a><a href="#categories">التصنيفات</a><a href="#favorites">المفضلة</a></div>
+</div></header>
+<main id="home" class="wrap">
+<section class="hero"><div class="eyebrow">✦ PLAY. COMPETE. CONQUER.</div><h1>لعبتك المفضلة التالية<br>تبدأ من هنا.</h1><p>اكتشف ألعاب متصفح ممتعة، اختبر مهاراتك، وابدأ اللعب فوراً — في عالم H GAME الأسود والذهبي.</p><div class="actions"><a class="btn primary" href="#library">استكشف الألعاب ←</a><button class="btn" id="heroPlay">العب اللعبة المميزة ▶</button></div></section>
+<section class="section"><div class="section-head"><div><div class="goldline"></div><h2>اللعبة المميزة</h2><p>تحدٍّ أصلي من H GAME — العب مباشرة في المتصفح.</p></div></div><div class="feature"><div class="feature-art" aria-hidden="true">🪙👑</div><div><span class="eyebrow">H GAME ORIGINAL</span><h2>H Gold Rush</h2><p>اجمع العملات الذهبية، تفادَ العقبات، وارفع نتيجتك في لعبة أركيد سريعة تدعم اللمس ولوحة المفاتيح.</p><div class="actions"><button class="btn primary" data-play="gold">العب الآن ▶</button><span class="tag">أركيد · لعبة أصلية</span></div></div></div></section>
+<div class="adslot" id="adHome"><strong>مساحة إعلانية</strong>موضع تجريبي فقط — لا تُعرض إعلانات حقيقية حتى تضيف مزوداً معتمداً وإعداداته.</div>
+<section class="section" id="trending"><div class="section-head"><div><div class="goldline"></div><h2>اختيارات مقترحة</h2><p>ألعاب تجريبية أصلية — ليست بيانات اتجاهات مباشرة.</p></div></div><div class="grid" id="trendingGrid"></div></section>
+<section class="section" id="new"><div class="section-head"><div><div class="goldline"></div><h2>ألعاب H GAME الأصلية</h2><p>مجموعة البداية القابلة للعب.</p></div></div><div class="grid" id="newGrid"></div></section>
+<section class="section" id="categories"><div class="section-head"><div><div class="goldline"></div><h2>تصفّح حسب التصنيف</h2><p>اختر نوع اللعبة الذي يناسبك.</p></div></div><div class="categories" id="categoryChips"></div></section>
+<section class="section" id="library"><div class="section-head"><div><div class="goldline"></div><h2>مكتبة الألعاب</h2><p id="resultCount">استكشف ألعاب المتصفح المتاحة.</p></div></div><div class="filters"><select id="categoryFilter" aria-label="فلترة حسب التصنيف"><option value="all">كل التصنيفات</option></select><select id="sortFilter" aria-label="ترتيب الألعاب"><option value="recommended">الترتيب الافتراضي</option><option value="title">الاسم: أ إلى ي</option><option value="newest">الأحدث أولاً</option></select><button class="smallbtn" id="clearFilters">مسح الفلاتر</button></div><div class="grid" id="libraryGrid"></div><div class="empty hidden" id="emptyState">لم نعثر على ألعاب مطابقة. جرّب كلمة بحث أو تصنيفاً آخر.</div></section>
+<section class="section" id="favorites"><div class="section-head"><div><div class="goldline"></div><h2>ألعابك المفضلة</h2><p>تُحفظ المفضلة على هذا الجهاز.</p></div></div><div class="grid" id="favoritesGrid"></div><div class="empty hidden" id="favoritesEmpty">لم تضف ألعاباً إلى المفضلة بعد. اضغط ♡ على أي بطاقة لإضافتها.</div></section>
+<section class="section"><div class="section-head"><div><div class="goldline"></div><h2>لعبت مؤخراً</h2><p>سجل محلي لآخر الألعاب التي فتحتها.</p></div></div><div class="grid" id="recentGrid"></div><div class="empty hidden" id="recentEmpty">ستظهر هنا الألعاب التي تبدأ بلعبها.</div></section>
+<section class="player-panel" id="playerPanel" aria-live="polite"><div class="player-head"><div><span class="eyebrow">H GAME PLAYER</span><h2 id="playerTitle">H Gold Rush</h2></div><button class="smallbtn" id="closePlayer">✕ إغلاق اللعبة</button></div><p class="game-instructions" id="gameInstructions"></p><div class="game-stage" id="gameStage"><canvas id="gameCanvas" width="720" height="420" aria-label="منطقة اللعب"></canvas></div><div class="pad" id="touchPad"><button data-key="left" aria-label="يسار">←</button><button data-key="up" aria-label="أعلى">↑</button><button data-key="down" aria-label="أسفل">↓</button><button data-key="right" aria-label="يمين">→</button></div><div class="game-controls"><button class="btn primary" id="startGame">▶ ابدأ / تابع</button><button class="btn" id="pauseGame">Ⅱ إيقاف مؤقت</button><button class="btn" id="restartGame">↻ إعادة</button><button class="btn" id="soundToggle">♪ الصوت: مغلق</button><button class="btn" id="fullscreenBtn">⛶ ملء الشاشة</button></div><p class="muted" id="scoreLine">النقاط: 0 · أفضل نتيجة: 0</p></section>
+
+<section class="legal" id="ownerStats" aria-labelledby="ownerStatsTitle">
+  <button class="smallbtn" id="closeOwnerStats">إغلاق</button>
+  <h2 id="ownerStatsTitle">لوحة إحصاءات المالك</h2>
+  <p class="muted">هذه لوحة تجريبية محلية على هذا المتصفح فقط. الأرقام لا تمثل زوار الموقع الحقيقيين عبر الإنترنت. لإحصاءات حقيقية مشتركة بين الأجهزة، اربط الموقع بخدمة تحليلات أو قاعدة بيانات على الخادم.</p>
+  <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin:18px 0">
+    <div class="game-card card-body"><span class="tag">جلسات زيارة مسجلة محلياً</span><h3 id="statVisits">0</h3></div>
+    <div class="game-card card-body"><span class="tag">مرات فتح الألعاب</span><h3 id="statGameOpens">0</h3></div>
+    <div class="game-card card-body"><span class="tag">مرات بدء اللعب</span><h3 id="statStarts">0</h3></div>
+    <div class="game-card card-body"><span class="tag">حسب اللعبة</span><div id="statByGame" class="muted">لا توجد بيانات بعد.</div></div>
+  </div>
+  <div class="actions"><button class="btn" id="exportStats">تصدير الإحصاءات CSV</button><button class="btn" id="resetStats">تصفير الإحصاءات المحلية</button></div>
+  <p class="muted" id="statsNote">تُخزن هذه البيانات على الجهاز والمتصفح الحاليين فقط.</p>
+</section>
+
+<section class="legal" id="legalPanel"><button class="smallbtn" id="closeLegal">إغلاق</button><h2 id="legalTitle"></h2><div id="legalText"></div></section>
+<section class="owner-panel" id="ownerDashboard" aria-live="polite">
+  <div class="player-head"><div><span class="eyebrow">OWNER ANALYTICS</span><h2>لوحة إحصاءات المالك</h2></div><button class="smallbtn" id="closeOwnerDashboard">✕ إغلاق</button></div>
+  <p class="stats-note">حالة الإحصاءات: <strong>غير متصل بخدمة تحليل خارجية</strong>. لا تعرض هذه اللوحة أرقاماً مخمّنة. بعد ربط قاعدة بيانات/خدمة تحليلات، يمكن عرض الزيارات الفعلية واللاعبين الفريدين ومرات تشغيل كل لعبة هنا. هذه النسخة الثابتة وحدها لا تستطيع جمع أرقام الزوار من جميع الأجهزة أو جعل لوحة المالك خاصة بشكل آمن.</p>
+  <div class="stats-grid">
+    <div class="stat-box"><small>زيارات هذا المتصفح فقط</small><strong id="localVisits">0</strong></div>
+    <div class="stat-box"><small>مرات فتح الألعاب على هذا المتصفح</small><strong id="localGameOpens">0</strong></div>
+    <div class="stat-box"><small>آخر تحديث محلي</small><strong id="localUpdated" style="font-size:.9rem">—</strong></div>
+  </div>
+  <h3>مرات فتح كل لعبة — على هذا الجهاز فقط</h3>
+  <div class="table-scroll"><table class="stats-table"><thead><tr><th>اللعبة</th><th>مرات الفتح محلياً</th></tr></thead><tbody id="localGameTable"><tr><td colspan="2">لا توجد بيانات بعد</td></tr></tbody></table></div>
+  <p class="muted">هذه الأرقام التجريبية تُحفظ في التخزين المحلي لهذا المتصفح، ولا تمثل عدد زوار الموقع الحقيقي. لا تستخدمها لتقييم الزيارات أو الأرباح.</p>
+</section>
+</main>
+<footer class="footer"><div class="wrap"><div class="brand"><span class="emblem">♛H</span><span>H GAME<small>PLAY. COMPETE. CONQUER.</small></span></div><div class="footlinks"><a href="#about" data-legal="about">من نحن</a><a href="#contact" data-legal="contact">اتصل بنا</a><a href="#ownerStats" id="ownerStatsLink">إحصاءات المالك</a><a href="#privacy" data-legal="privacy">سياسة الخصوصية</a><a href="#cookies" data-legal="cookies">سياسة ملفات الارتباط</a><a href="#terms" data-legal="terms">شروط الاستخدام</a><a href="#ownerDashboard" id="ownerDashboardLink">لوحة إحصاءات المالك</a></div><p>© <span id="year"></span> H GAME. جميع الحقوق محفوظة.</p><p class="muted">نسخة أولية. إحصاءات المالك في هذه النسخة محلية وتجريبية فقط؛ الإحصاءات الحقيقية تحتاج خدمة تحليلات أو خادماً.</p></div></footer>
+<div class="toast" id="toast" role="status"></div>
+<script>
+(function(){
+'use strict';
+const $=s=>document.querySelector(s), $$=s=>Array.from(document.querySelectorAll(s));
+const games=[
+{id:'gold',title:'H Gold Rush',category:'أركيد',icon:'🪙',desc:'اجمع العملات الذهبية وتفادَ العقبات.',date:'2026-10-30',kind:'gold',featured:true},
+{id:'puzzle',title:'H Puzzle Master',category:'ألغاز',icon:'🧩',desc:'رتّب البلاطات لتكوين الصورة الرقمية بالترتيب الصحيح.',date:'2026-10-30',kind:'puzzle'},
+{id:'racer',title:'H Neon Racer',category:'سباق',icon:'🏎️',desc:'قد سيارتك بين العقبات واصمد لأطول وقت.',date:'2026-10-30',kind:'racer'},
+{id:'memory',title:'H Memory Match',category:'ذاكرة',icon:'🧠',desc:'اختبر ذاكرتك بمطابقة الرموز المتشابهة.',date:'2026-10-30',kind:'memory'}
+];
+const ownerPin='HGAME-OWNER-2026'; // Demo-only gate: not secure authentication.
+const categories=['الكل','أركيد','ألغاز','سباق','ذاكرة','أكشن','مغامرات','رياضة','استراتيجية','تعليمي','ثنائي'];
+let favorites=read('hg_favorites',[]),recent=read('hg_recent',[]),activeCategory='all',activeGame=null,gameState={},raf=0,lastTime=0,keys={},sound=false;
+function read(k,f){try{return JSON.parse(localStorage.getItem(k))||f}catch(e){return f}}
+function save(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+
+function getStats(){return read('hg_owner_stats',{visits:0,gameOpens:0,starts:0,byGame:{},startedByGame:{}})}
+function saveStats(s){save('hg_owner_stats',s)}
+function countVisit(){const s=getStats();s.visits=(s.visits||0)+1;saveStats(s)}
+function countGameOpen(id){const s=getStats();s.gameOpens=(s.gameOpens||0)+1;s.byGame[id]=(s.byGame[id]||0)+1;saveStats(s)}
+function countGameStart(id){const s=getStats();s.starts=(s.starts||0)+1;s.startedByGame[id]=(s.startedByGame[id]||0)+1;saveStats(s)}
+function refreshOwnerStats(){
+ const s=getStats();
+ $('#statVisits').textContent=s.visits||0;$('#statGameOpens').textContent=s.gameOpens||0;$('#statStarts').textContent=s.starts||0;
+ const rows=Object.entries(s.byGame||{});
+ $('#statByGame').innerHTML=rows.length?rows.map(([id,n])=>{const g=games.find(x=>x.id===id);return `<div>${g?g.title:id}: <b>${n}</b> فتح</div>`}).join(''):'لا توجد بيانات بعد.';
+}
+function toast(t){const el=$('#toast');el.textContent=t;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),2300)}
+function card(g){return `<article class="game-card"><div class="thumb"><span>${g.icon}</span><span class="type">${g.category}</span><button class="heart ${favorites.includes(g.id)?'on':''}" data-fav="${g.id}" aria-label="إضافة ${g.title} للمفضلة">${favorites.includes(g.id)?'♥':'♡'}</button></div><div class="card-body"><h3>${g.title}</h3><p>${g.desc}</p><div class="card-bottom"><span class="tag">H GAME ORIGINAL</span><button class="play" data-play="${g.id}">العب ▶</button></div></div></article>`}
+function render(){
+ const q=$('#searchInput').value.trim().toLowerCase(),cat=$('#categoryFilter').value,sort=$('#sortFilter').value;
+ let list=games.filter(g=>(!q||(g.title+' '+g.desc+' '+g.category).toLowerCase().includes(q))&&(cat==='all'||g.category===cat)&&(activeCategory==='all'||g.category===activeCategory));
+ if(sort==='title')list.sort((a,b)=>a.title.localeCompare(b.title));if(sort==='newest')list.sort((a,b)=>b.date.localeCompare(a.date));
+ $('#libraryGrid').innerHTML=list.map(card).join('');$('#resultCount').textContent=`عدد الألعاب المعروضة: ${list.length}`;
+ $('#emptyState').classList.toggle('hidden',list.length>0);
+ $('#trendingGrid').innerHTML=games.slice(0,3).map(card).join('');$('#newGrid').innerHTML=games.slice().reverse().map(card).join('');
+ const favs=games.filter(g=>favorites.includes(g.id));$('#favoritesGrid').innerHTML=favs.map(card).join('');$('#favoritesEmpty').classList.toggle('hidden',favs.length>0);
+ const rec=recent.map(id=>games.find(g=>g.id===id)).filter(Boolean);$('#recentGrid').innerHTML=rec.map(card).join('');$('#recentEmpty').classList.toggle('hidden',rec.length>0);
+ $('#favCount').textContent=favorites.length;
+}
+countVisit();
+function addRecent(id){recent=[id,...recent.filter(x=>x!==id)].slice(0,4);save('hg_recent',recent)}
+function updateLocalDashboard(){
+ const visits=Number(localStorage.getItem('hg_local_visits')||0);
+ const opens=Number(localStorage.getItem('hg_local_game_opens')||0);
+ $('#localVisits').textContent=visits;
+ $('#localGameOpens').textContent=opens;
+ $('#localUpdated').textContent=localStorage.getItem('hg_local_updated')||'—';
+ const counts=read('hg_local_game_counts',{});
+ $('#localGameTable').innerHTML=games.map(g=>'<tr><td>'+g.title+'</td><td>'+Number(counts[g.id]||0)+'</td></tr>').join('');
+}
+try{
+ if(!sessionStorage.getItem('hg_visit_counted')){
+  localStorage.setItem('hg_local_visits',String(Number(localStorage.getItem('hg_local_visits')||0)+1));
+  sessionStorage.setItem('hg_visit_counted','1');
+ }
+}catch(e){}
+function recordLocalGameOpen(id){
+ try{
+  localStorage.setItem('hg_local_game_opens',String(Number(localStorage.getItem('hg_local_game_opens')||0)+1));
+  const counts=read('hg_local_game_counts',{});counts[id]=Number(counts[id]||0)+1;save('hg_local_game_counts',counts);
+  localStorage.setItem('hg_local_updated',new Date().toLocaleString());
+ }catch(e){}
+ updateLocalDashboard();
+}
+function openGame(id){const g=games.find(x=>x.id===id);if(!g)return;activeGame=g;countGameOpen(id);addRecent(id);recordLocalGameOpen(id);$('#playerPanel').classList.add('show');$('#playerTitle').textContent=g.title;$('#gameInstructions').textContent=g.kind==='gold'?'التحكم: الأسهم أو WASD، وعلى الهاتف استخدم أزرار الاتجاهات. اجمع العملات الذهبية وتجنب الكرات الحمراء.':g.kind==='puzzle'?'اضغط على البلاطات المجاورة للفراغ لترتيب الأرقام من 1 إلى 8. اختر مستوى الصعوبة ثم ابدأ.':'استخدم ← → أو A/D للتحرك وتفادى السيارات والعقبات. على الهاتف استخدم أزرار الاتجاهات.';$('#touchPad').classList.toggle('hidden',g.kind==='puzzle');$('#playerPanel').scrollIntoView({behavior:'smooth',block:'start'});initGame();render();}
+function toggleFav(id){favorites=favorites.includes(id)?favorites.filter(x=>x!==id):[...favorites,id];save('hg_favorites',favorites);render();toast(favorites.includes(id)?'أُضيفت إلى المفضلة':'أُزيلت من المفضلة')}
+function initCategories(){categories.forEach(c=>{if(c!=='الكل')$('#categoryFilter').insertAdjacentHTML('beforeend',`<option value="${c}">${c}</option>`)});$('#categoryChips').innerHTML=categories.map(c=>`<button class="chip ${c==='الكل'?'active':''}" data-cat="${c==='الكل'?'all':c}">${c}</button>`).join('')}
+document.addEventListener('click',e=>{const p=e.target.closest('[data-play]');if(p){openGame(p.dataset.play);return}const f=e.target.closest('[data-fav]');if(f){toggleFav(f.dataset.fav);return}const c=e.target.closest('[data-cat]');if(c){activeCategory=c.dataset.cat;$('#categoryFilter').value=activeCategory;$$('[data-cat]').forEach(x=>x.classList.toggle('active',x===c));render();$('#library').scrollIntoView({behavior:'smooth'});return}const l=e.target.closest('[data-legal]');if(l){e.preventDefault();showLegal(l.dataset.legal);}});
+$('#searchInput').addEventListener('input',render);$('#categoryFilter').addEventListener('change',()=>{activeCategory='all';render()});$('#sortFilter').addEventListener('change',render);$('#clearFilters').onclick=()=>{$('#searchInput').value='';$('#categoryFilter').value='all';$('#sortFilter').value='recommended';activeCategory='all';$$('[data-cat]').forEach(x=>x.classList.toggle('active',x.dataset.cat==='all'));render()};
+$('#favoritesNav').onclick=()=>$('#favorites').scrollIntoView({behavior:'smooth'});$('#heroPlay').onclick=()=>openGame('gold');$('#menuToggle').onclick=()=>{const m=$('#mobileMenu'),v=m.classList.toggle('open');$('#menuToggle').setAttribute('aria-expanded',String(v))};$('#mobileMenu').addEventListener('click',e=>{if(e.target.tagName==='A'){$('#mobileMenu').classList.remove('open');$('#menuToggle').setAttribute('aria-expanded','false')}});
+$('#closePlayer').onclick=()=>{stopLoop();$('#playerPanel').classList.remove('show');activeGame=null};$('#startGame').onclick=()=>start();$('#pauseGame').onclick=()=>pause();$('#restartGame').onclick=()=>initGame();$('#soundToggle').onclick=()=>{sound=!sound;$('#soundToggle').textContent='♪ الصوت: '+(sound?'مفتوح':'مغلق');toast(sound?'الصوت التجريبي مفعّل عند دعم المتصفح':'تم إيقاف الصوت')};$('#fullscreenBtn').onclick=async()=>{const el=$('#gameStage');try{if(!document.fullscreenElement)await el.requestFullscreen();else await document.exitFullscreen()}catch(e){toast('ملء الشاشة غير مدعوم في هذا المتصفح')}};
+$$('[data-key]').forEach(b=>{const k=b.dataset.key;b.addEventListener('pointerdown',e=>{e.preventDefault();keys[k]=true});['pointerup','pointerleave','pointercancel'].forEach(ev=>b.addEventListener(ev,()=>keys[k]=false))});
+document.addEventListener('keydown',e=>{if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown',' '].includes(e.key)&&activeGame)e.preventDefault();const k=e.key.toLowerCase();keys[({'arrowleft':'left','arrowright':'right','arrowup':'up','arrowdown':'down','a':'left','d':'right','w':'up','s':'down'})[k]||k]=true;if(k===' '&&activeGame){gameState.running?pause():start()}});
+document.addEventListener('keyup',e=>{const k=e.key.toLowerCase();keys[({'arrowleft':'left','arrowright':'right','arrowup':'up','arrowdown':'down','a':'left','d':'right','w':'up','s':'down'})[k]||k]=false});
+function showLegal(key){const data={about:['من نحن','H GAME نموذج أولي لمنصة ألعاب متصفح يركّز على ألعاب أصلية بسيطة وتجربة عربية سهلة. أي ألعاب خارجية مستقبلية ستُضاف فقط وفق شروط الترخيص والأذونات المناسبة.'],contact:['اتصل بنا','يمكنك التواصل مع فريق H GAME عبر رقم الهاتف أو البريد الإلكتروني أدناه.'],privacy:['سياسة الخصوصية','هذا النموذج يخزّن المفضلة وسجل اللعب محلياً في متصفح جهازك. لا توجد قاعدة بيانات أو حسابات مستخدمين في النسخة الحالية. عند إضافة التحليلات أو الإعلانات، حدّث هذه السياسة وطبّق متطلبات الموافقة القانونية ذات الصلة.'],cookies:['سياسة ملفات الارتباط','قد يستخدم هذا النموذج التخزين المحلي لحفظ المفضلة وآخر الألعاب. لا توجد ملفات ارتباط إعلانية في النسخة الحالية.'],terms:['شروط الاستخدام','الألعاب المضمّنة هنا تجريبية أصلية. استخدم الموقع بشكل قانوني، ولا تُعد توزيع المحتوى أو تضف ألعاباً أو مواد لا تملك حق استخدامها. يلزم مراجعة قانونية مناسبة قبل الإطلاق العام.']};$('#legalTitle').textContent=data[key][0];$('#legalText').textContent=data[key][1];
+if(key==='contact'){
+ const contacts=document.createElement('div');contacts.className='contact-card';
+ contacts.innerHTML='<a class="contact-link" href="tel:+963939766735">☎ +963 939 766 735</a><a class="contact-link" href="mailto:hadisro1112@gmail.com">✉ hadisro1112@gmail.com</a>';
+ $('#legalText').appendChild(contacts);
+}
+$('#legalPanel').classList.add('show');$('#legalPanel').scrollIntoView({behavior:'smooth'})}
+$('#closeLegal').onclick=()=>$('#legalPanel').classList.remove('show');
+
+$('#ownerStatsLink').addEventListener('click',e=>{
+ e.preventDefault();
+ const pin=prompt('أدخل رمز المالك لفتح لوحة الإحصاءات:');
+ if(pin===null)return;
+ if(pin!==ownerPin){toast('رمز المالك غير صحيح');return}
+ refreshOwnerStats();$('#ownerStats').classList.add('show');$('#ownerStats').scrollIntoView({behavior:'smooth'});
+});
+$('#closeOwnerStats').onclick=()=>$('#ownerStats').classList.remove('show');
+$('#exportStats').onclick=()=>{
+ const s=getStats(),rows=[['Metric','Count'],['Local page loads',s.visits||0],['Game opens',s.gameOpens||0],['Game starts',s.starts||0],[],['Game','Opens','Starts']];
+ games.forEach(g=>rows.push([g.title,(s.byGame||{})[g.id]||0,(s.startedByGame||{})[g.id]||0]));
+ const csv=rows.map(r=>r.map(v=>'"'+String(v??'').replace(/"/g,'""')+'"').join(',')).join('\r\n');
+ const blob=new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8;'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='h-game-local-stats.csv';a.click();URL.revokeObjectURL(url);
+};
+$('#resetStats').onclick=()=>{if(confirm('هل تريد تصفير الإحصاءات المحلية على هذا الجهاز؟')){saveStats({visits:0,gameOpens:0,starts:0,byGame:{},startedByGame:{}});refreshOwnerStats();toast('تم تصفير إحصاءات هذا المتصفح')}}
+
+$('#ownerDashboardLink').addEventListener('click',e=>{e.preventDefault();$('#ownerDashboard').classList.add('show');updateLocalDashboard();$('#ownerDashboard').scrollIntoView({behavior:'smooth'});});
+$('#closeOwnerDashboard').onclick=()=>$('#ownerDashboard').classList.remove('show');
+$('#year').textContent=new Date().getFullYear();
+const canvas=$('#gameCanvas'),ctx=canvas.getContext('2d');
+function stopLoop(){if(raf)cancelAnimationFrame(raf);raf=0}
+function initGame(){stopLoop();keys={};gameState={running:false,score:0,best:Number(localStorage.getItem('hg_best_'+(activeGame?.id||'gold'))||0),time:0,lastSpawn:0,objects:[],player:{x:canvas.width/2,y:canvas.height-65,w:30,h:30},grid:[],moves:0,level:3,selected:null,over:false};if(activeGame?.kind==='puzzle')setupPuzzle();draw();updateScore();$('#startGame').textContent='▶ ابدأ / تابع';}
+function updateScore(){if(!activeGame)return;$('#scoreLine').textContent=`النقاط: ${gameState.score||0} · أفضل نتيجة: ${gameState.best||0}${activeGame.kind==='puzzle'?' · الحركات: '+(gameState.moves||0):''}`}
+function start(){if(!activeGame)return;countGameStart(activeGame.id);if(activeGame.kind==='puzzle'){gameState.running=true;draw();return}if(gameState.over)initGame();gameState.running=true;lastTime=performance.now();stopLoop();raf=requestAnimationFrame(loop);$('#startGame').textContent='▶ تابع';}
+function pause(){if(!activeGame)return;gameState.running=false;stopLoop();draw();$('#startGame').textContent='▶ تابع'}
+function loop(t){if(!gameState.running||!activeGame)return;const dt=Math.min((t-lastTime)/1000,.04);lastTime=t;update(dt);draw();raf=requestAnimationFrame(loop)}
+function update(dt){const g=activeGame,st=gameState;st.time+=dt;if(g.kind==='gold'){const p=st.player,speed=230;if(keys.left)p.x-=speed*dt;if(keys.right)p.x+=speed*dt;if(keys.up)p.y-=speed*dt;if(keys.down)p.y+=speed*dt;p.x=Math.max(18,Math.min(canvas.width-18,p.x));p.y=Math.max(18,Math.min(canvas.height-18,p.y));st.lastSpawn+=dt;if(st.lastSpawn>.65){st.lastSpawn=0;st.objects.push({x:20+Math.random()*(canvas.width-40),y:-15,r:Math.random()<.72?10:13,type:Math.random()<.72?'coin':'bad',vy:100+Math.random()*100})}st.objects.forEach(o=>o.y+=o.vy*dt);st.objects=st.objects.filter(o=>o.y<canvas.height+20);st.objects=st.objects.filter(o=>{if(Math.hypot(o.x-p.x,o.y-p.y)<o.r+14){if(o.type==='coin'){st.score+=10;return false}else{endGame();return false}}return true});}
+else if(g.kind==='racer'){const p=st.player,speed=310;if(keys.left)p.x-=speed*dt;if(keys.right)p.x+=speed*dt;p.x=Math.max(25,Math.min(canvas.width-25,p.x));st.lastSpawn+=dt;if(st.lastSpawn>Math.max(.28,.8-st.time*.008)){st.lastSpawn=0;st.objects.push({x:30+Math.random()*(canvas.width-60),y:-45,w:35,h:48,vy:180+Math.min(240,st.time*5)})}st.objects.forEach(o=>o.y+=o.vy*dt);st.score=Math.floor(st.time*5);st.objects=st.objects.filter(o=>{if(o.y>canvas.height+60)return false;if(Math.abs(o.x-p.x)<29&&Math.abs(o.y-p.y)<43){endGame();return false}return true})}}
+function endGame(){gameState.running=false;gameState.over=true;stopLoop();if(gameState.score>gameState.best){gameState.best=gameState.score;try{localStorage.setItem('hg_best_'+activeGame.id,String(gameState.best))}catch(e){}}updateScore();draw();toast('انتهت الجولة! نتيجتك: '+gameState.score)}
+function setupPuzzle(){const n=9;gameState.grid=[1,2,3,4,5,6,7,8,0];for(let i=0;i<80;i++){const z=gameState.grid.indexOf(0),opts=[z-3,z+3];if(z%3)opts.push(z-1);if(z%3<2)opts.push(z+1);const valid=opts.filter(x=>x>=0&&x<n);const j=valid[Math.floor(Math.random()*valid.length)];[gameState.grid[z],gameState.grid[j]]=[gameState.grid[j],gameState.grid[z]]}gameState.moves=0;gameState.over=false}
+function draw(){ctx.clearRect(0,0,canvas.width,canvas.height);const g=activeGame,st=gameState;ctx.fillStyle='#101010';ctx.fillRect(0,0,canvas.width,canvas.height);ctx.strokeStyle='#28210f';ctx.lineWidth=1;for(let x=0;x<canvas.width;x+=40){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,canvas.height);ctx.stroke()}for(let y=0;y<canvas.height;y+=40){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(canvas.width,y);ctx.stroke()}if(!g){centerText('H GAME',canvas.height/2);return}
+if(g.kind==='gold'){centerText('H GOLD RUSH',35,25);st.objects.forEach(o=>{ctx.beginPath();ctx.fillStyle=o.type==='coin'?'#ffd700':'#f04444';ctx.arc(o.x,o.y,o.r,0,Math.PI*2);ctx.fill();ctx.strokeStyle=o.type==='coin'?'#fff0a1':'#ffaaaa';ctx.stroke()});ctx.fillStyle='#d4af37';ctx.beginPath();ctx.moveTo(st.player.x,st.player.y-18);ctx.lineTo(st.player.x+16,st.player.y+14);ctx.lineTo(st.player.x-16,st.player.y+14);ctx.closePath();ctx.fill();if(!st.running&&!st.over)centerText('اضغط ابدأ للعب',canvas.height/2);if(st.over)centerText('انتهت الجولة — أعد التشغيل',canvas.height/2);}
+else if(g.kind==='racer'){ctx.fillStyle='#252525';ctx.fillRect(190,0,340,canvas.height);ctx.strokeStyle='#b99a3c';ctx.setLineDash([22,20]);ctx.lineWidth=4;ctx.beginPath();ctx.moveTo(360,0);ctx.lineTo(360,canvas.height);ctx.stroke();ctx.setLineDash([]);st.objects.forEach(o=>{ctx.fillStyle='#b83b31';ctx.fillRect(o.x-o.w/2,o.y-o.h/2,o.w,o.h);ctx.fillStyle='#ddd';ctx.fillRect(o.x-10,o.y-12,20,12)});ctx.fillStyle='#d4af37';ctx.fillRect(st.player.x-15,st.player.y-22,30,44);ctx.fillStyle='#222';ctx.fillRect(st.player.x-10,st.player.y-13,20,10);centerText('H NEON RACER',35,24);if(!st.running&&!st.over)centerText('اضغط ابدأ للانطلاق',canvas.height/2);if(st.over)centerText('اصطدام! أعد المحاولة',canvas.height/2);}
+else if(g.kind==='puzzle'){centerText('H PUZZLE MASTER',38,24);const size=92,gap=8,x0=(canvas.width-(size*3+gap*2))/2,y0=65;st.grid.forEach((v,i)=>{const x=x0+(i%3)*(size+gap),y=y0+Math.floor(i/3)*(size+gap);ctx.fillStyle=v?'#33280d':'#0a0a0a';ctx.fillRect(x,y,size,size);ctx.strokeStyle='#d4af37';ctx.strokeRect(x,y,size,size);if(v){ctx.fillStyle='#ffe28a';ctx.font='bold 32px system-ui';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(v,x+size/2,y+size/2)}});if(st.over)centerText('أحسنت! حللت اللغز',canvas.height-30,20);else{ctx.fillStyle='#b8b8b8';ctx.font='16px system-ui';ctx.textAlign='center';ctx.fillText('اضغط البلاطة المجاورة للمربع الفارغ',canvas.width/2,canvas.height-22)}}}
+function centerText(txt,y,size=22){ctx.fillStyle='#ffd700';ctx.font=`bold ${size}px system-ui`;ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(txt,canvas.width/2,y)}
+canvas.addEventListener('click',e=>{if(!activeGame||activeGame.kind!=='puzzle')return;const r=canvas.getBoundingClientRect(),x=(e.clientX-r.left)*canvas.width/r.width,y=(e.clientY-r.top)*canvas.height/r.height,size=92,gap=8,x0=(canvas.width-(size*3+gap*2))/2,y0=65,col=Math.floor((x-x0)/(size+gap)),row=Math.floor((y-y0)/(size+gap));if(col<0||col>2||row<0||row>2)return;const i=row*3+col,z=gameState.grid.indexOf(0);if(Math.abs(i%3-z%3)+Math.abs(Math.floor(i/3)-Math.floor(z/3))===1&&!gameState.over){[gameState.grid[i],gameState.grid[z]]=[gameState.grid[z],gameState.grid[i]];gameState.moves++;gameState.score=Math.max(0,1000-gameState.moves*10);if(gameState.grid.every((v,j)=>v===(j+1)%9)){gameState.over=true;gameState.running=false;gameState.score+=500;toast('ممتاز! أكملت اللغز')}if(gameState.score>gameState.best){gameState.best=gameState.score;try{localStorage.setItem('hg_best_'+activeGame.id,String(gameState.best))}catch(e){}}draw();updateScore()}});
+initCategories();render();$('#year').textContent=new Date().getFullYear();
+})();
+</script>
+</body></html>
